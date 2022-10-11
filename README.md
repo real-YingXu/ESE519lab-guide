@@ -14,8 +14,15 @@ $ /bin/bash -c "$(curl -fsSL
 https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 ##
-2.install arm-none-eabi-gcc
 
+
+2.install the CMake Tools
+$ brew install cmake
+![image](https://user-images.githubusercontent.com/114256663/194978120-9183bff8-120c-446c-ab85-e73c07dc6cf8.png)
+
+2.install arm-none-eabi-gcc
+$ brew tap ArmMbed/homebrew-formulae
+$ brew install arm-none-eabi-gcc
 ![image](https://user-images.githubusercontent.com/114256663/194977725-95747296-00ea-4787-89a5-b4c4c501fd9d.png)
 
 ##
@@ -27,8 +34,7 @@ $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 ##
 4.install VScode (google)
 ##
-5.install the CMake Tools
-![image](https://user-images.githubusercontent.com/114256663/194978120-9183bff8-120c-446c-ab85-e73c07dc6cf8.png)
+
 ##
 6.create .vscode file
 
@@ -46,6 +52,9 @@ $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 ![image](https://user-images.githubusercontent.com/114256663/194979757-59441ff9-97ac-40db-ae3f-8526d975edd8.png)
 
 ![image](https://user-images.githubusercontent.com/114256663/194980059-582af3f4-e39b-47a0-8b97-b96a53db8625.png)
+
+
+![image](https://user-images.githubusercontent.com/114256663/194985544-c8eb9c42-786b-4b9c-aabe-978fe0d54c0e.png)
 
 ##
 8.called pico
