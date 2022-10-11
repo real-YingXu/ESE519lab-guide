@@ -38,6 +38,7 @@ $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
   },
   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
+
 ![image](https://user-images.githubusercontent.com/114256663/194979294-78a60a4a-8050-482b-997a-71ad418c1e7b.png)
 ##
 7.configure as follows:
@@ -78,6 +79,8 @@ press and hold the reset ,press the reboot
 ![image](https://user-images.githubusercontent.com/114256663/194982734-ed6c9395-cc92-4dfc-8fc6-696174ca2377.png)
 
 
+put the file "hello_usb.uf2" into the disk "RPI_RP2"
+
 ##
 11. input
 $ ls dev/tty.*
@@ -85,17 +88,14 @@ then unplug the chip
 you can see which file you lose
 then insert the chip again
 input 
+
 $ screen /dev/tty.usbmodem1101 115200
 ![image](https://user-images.githubusercontent.com/114256663/194982466-a3007b03-11e8-468d-892e-3099be603142.png)
 
-##
-12.input 
-$ hello world  
-in the VScode
-![image](https://user-images.githubusercontent.com/114256663/194983667-84f98f4b-dfb3-42a0-b625-b2e0363da1e5.png)
+
 
 ##
-13.the screen will show as follows:
+12.the screen will show as follows:
 ![image](https://user-images.githubusercontent.com/114256663/194983775-47cd5e7c-ea52-45e5-bb04-70060de816ac.png)
 
 
