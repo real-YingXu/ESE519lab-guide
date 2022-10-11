@@ -20,23 +20,23 @@ https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 $ brew install cmake
 ![image](https://user-images.githubusercontent.com/114256663/194978120-9183bff8-120c-446c-ab85-e73c07dc6cf8.png)
 
-2.install arm-none-eabi-gcc
+3.install arm-none-eabi-gcc
 $ brew tap ArmMbed/homebrew-formulae
 $ brew install arm-none-eabi-gcc
 ![image](https://user-images.githubusercontent.com/114256663/194977725-95747296-00ea-4787-89a5-b4c4c501fd9d.png)
 
 ##
-3.install Terminal_Rosetta2
+4.install Terminal_Rosetta2
 $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
 ![image](https://user-images.githubusercontent.com/114256663/194977768-24ef5a57-0c18-4d02-9309-c9a582534c65.png)
 
 ##
-4.install VScode (google)
+5.install VScode (google)
 ##
 
 ##
-6.create .vscode file
+7.create .vscode file
 
 {
   "cmake.environment": {
@@ -47,7 +47,7 @@ $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
 ![image](https://user-images.githubusercontent.com/114256663/194979294-78a60a4a-8050-482b-997a-71ad418c1e7b.png)
 ##
-7.configure as follows:
+8.configure as follows:
 
 ![image](https://user-images.githubusercontent.com/114256663/194979757-59441ff9-97ac-40db-ae3f-8526d975edd8.png)
 
@@ -57,7 +57,7 @@ $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 ![image](https://user-images.githubusercontent.com/114256663/194985544-c8eb9c42-786b-4b9c-aabe-978fe0d54c0e.png)
 
 ##
-8.called pico
+9.called pico
 
 ![image](https://user-images.githubusercontent.com/114256663/194980578-27024a66-67be-4c89-bf25-dbb0631e1367.png)
 $ cd ~/
@@ -75,7 +75,7 @@ $ cd pico-examples
 $ mkdir build
 $ cd build
 ##
-9.input code as follows in the file "hello_usb.uf2"
+10.input code as follows in the file "hello_usb.uf2"
 
 $ cd build
 $ cd hello_word
@@ -83,7 +83,7 @@ $ make -j8
 
 ![image](https://user-images.githubusercontent.com/114256663/194981482-78723bc5-ed78-46ca-8cb5-3bfde93c6bb0.png)
 ##
-10. insert the chip 
+11. insert the chip 
 press and hold the reset ,press the reboot 
 ![image](https://user-images.githubusercontent.com/114256663/194982734-ed6c9395-cc92-4dfc-8fc6-696174ca2377.png)
 
@@ -91,7 +91,7 @@ press and hold the reset ,press the reboot
 put the file "hello_usb.uf2" into the disk "RPI_RP2"
 
 ##
-11. input
+12. input
 $ ls dev/tty.*
 then unplug the chip 
 you can see which file you lose
@@ -105,7 +105,7 @@ $ screen /dev/tty.usbmodem1101 115200
 
 
 ##
-12.the screen will show as follows:
+13.the screen will show as follows:
 ![image](https://user-images.githubusercontent.com/114256663/194983775-47cd5e7c-ea52-45e5-bb04-70060de816ac.png)
 
 
