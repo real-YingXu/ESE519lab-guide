@@ -90,7 +90,8 @@ then insert the chip again
 input 
 
 $ screen /dev/tty.usbmodem1101 115200
-![image](https://user-images.githubusercontent.com/114256663/194982466-a3007b03-11e8-468d-892e-3099be603142.png)
+![image](https://user-images.githubusercontent.com/114256663/194985223-6e29c81b-4a04-4145-87f0-440a1b0b54f1.png)
+
 
 
 
